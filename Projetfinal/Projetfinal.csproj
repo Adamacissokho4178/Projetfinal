@@ -52,8 +52,47 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Model\FrmAgenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Model\FrmAgenda.Designer.cs">
+      <DependentUpon>FrmAgenda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\FrmMedecin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Model\FrmMedecin.Designer.cs">
+      <DependentUpon>FrmMedecin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\FrmPatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Model\FrmPatient.Designer.cs">
+      <DependentUpon>FrmPatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\FrmRendezvous.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Model\FrmRendezvous.Designer.cs">
+      <DependentUpon>FrmRendezvous.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Model\FrmAgenda.resx">
+      <DependentUpon>FrmAgenda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Model\FrmMedecin.resx">
+      <DependentUpon>FrmMedecin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Model\FrmPatient.resx">
+      <DependentUpon>FrmPatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Model\FrmRendezvous.resx">
+      <DependentUpon>FrmRendezvous.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -75,6 +114,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="NewFolder1\" />
+    <Folder Include="View\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
