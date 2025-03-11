@@ -52,28 +52,28 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Model\FrmAgenda.cs">
+    <Compile Include="Vieu\FrmAgenda.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Model\FrmAgenda.Designer.cs">
+    <Compile Include="Vieu\FrmAgenda.Designer.cs">
       <DependentUpon>FrmAgenda.cs</DependentUpon>
     </Compile>
-    <Compile Include="Model\FrmMedecin.cs">
+    <Compile Include="Vieu\FrmMedecin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Model\FrmMedecin.Designer.cs">
+    <Compile Include="Vieu\FrmMedecin.Designer.cs">
       <DependentUpon>FrmMedecin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Model\FrmPatient.cs">
+    <Compile Include="Vieu\FrmPatient.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Model\FrmPatient.Designer.cs">
+    <Compile Include="Vieu\FrmPatient.Designer.cs">
       <DependentUpon>FrmPatient.cs</DependentUpon>
     </Compile>
-    <Compile Include="Model\FrmRendezvous.cs">
+    <Compile Include="Vieu\FrmRendezvous.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Model\FrmRendezvous.Designer.cs">
+    <Compile Include="Vieu\FrmRendezvous.Designer.cs">
       <DependentUpon>FrmRendezvous.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -81,16 +81,16 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Model\FrmAgenda.resx">
+    <EmbeddedResource Include="Vieu\FrmAgenda.resx">
       <DependentUpon>FrmAgenda.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Model\FrmMedecin.resx">
+    <EmbeddedResource Include="Vieu\FrmMedecin.resx">
       <DependentUpon>FrmMedecin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Model\FrmPatient.resx">
+    <EmbeddedResource Include="Vieu\FrmPatient.resx">
       <DependentUpon>FrmPatient.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Model\FrmRendezvous.resx">
+    <EmbeddedResource Include="Vieu\FrmRendezvous.resx">
       <DependentUpon>FrmRendezvous.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -115,9 +115,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="NewFolder1\" />
-    <Folder Include="View\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
